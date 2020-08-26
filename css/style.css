@@ -1,0 +1,510 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: #F7F7F7!important;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menu a {
+  font-family: Big-noddle;
+}
+
+.menu {
+  position: fixed!important;
+  z-index: 10;
+  background-color: transparent;
+  margin-left: 1%;
+}
+
+.navbar-toggler {
+  border-color: rgba(0,0,0,0)!important;
+}
+
+@font-face { font-family: Big-noddle; src: url('../src/fonts/big_noodle_titling.ttf'); }
+
+/***************************BACKGROUND-IMAGE*****************************/
+
+#background-image {
+  height: 95vh;
+}
+
+#contact {
+  height: 90vh;
+}
+
+.image {
+  background:url("../src/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: inherit;
+}
+
+.image2 {
+  background-image: url("../src/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: inherit;
+}
+
+.logoJava {
+  background-image: url("../src/logoJAVA.png");
+  background-repeat: no-repeat;
+  background-size: 17%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoJavascript {
+  background-image: url("../src/logoJavascript.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoHC {
+  background-image: url("../src/logoCSSHTML.png");
+  background-repeat: no-repeat;
+  background-size: 33%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoMysql {
+  background-image: url("../src/logoMysql.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoC {
+  background-image: url("../src/logoC.png");
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoCP {
+  background-image: url("../src/logoCP.png");
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoBoot {
+  background-image: url("../src/bootstrap.png");
+  background-repeat: no-repeat;
+  background-size: 12%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoJQ {
+  background-image: url("../src/jquery.png");
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoGit {
+  background-image: url("../src/git.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoTrello {
+  background-image: url("../src/trello.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoJira {
+  background-image: url("../src/jira.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
+  height: 10em;
+}
+
+
+.entete h1 {
+  color: white;
+  text-align: center;
+  font-family: Big-noddle;
+
+}
+
+.entete h3 {
+  color: white;
+  text-align: center;
+  font-size: 6em;
+  font-family: Big-noddle;
+
+}
+
+/************************************************************************/
+
+
+
+/*******************************BLOCKS***********************************/
+
+.preblock1 {
+  border-radius: 10px;
+  margin: -60px 30px 0px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  position:relative;
+  z-index: 5;
+  background: url("../src/pdp.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.preblock2 {
+  border-radius: 10px;
+  margin: -60px 30px 0px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  position:relative;
+  z-index: 5;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.block {
+  border-radius: 10px;
+  margin: 60px 30px 0px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  position:relative;
+  z-index: 5;
+  background: white;
+}
+
+
+.blockLoisir1 {
+  border-radius: 10px;
+  height: 20em;
+  margin: 60px 30px 0px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  position:relative;
+  z-index: 5;
+  background: linear-gradient(to left, transparent, #000), url("../src/guitare.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blockLoisir2 {
+  border-radius: 10px;
+  height: 20em;
+  margin: 60px 30px 0px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  position:relative;
+  z-index: 5;
+  background: linear-gradient(to left, transparent, #000), url("../src/camera.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blockLoisir3 {
+  border-radius: 10px;
+  height: 20em;
+  margin: 60px 30px 0px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  position:relative;
+  z-index: 5;
+  background: linear-gradient(to left, transparent, #000), url("../src/voyage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blockProjet {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  position:relative;
+  z-index: 5;
+  margin: 60px 30px 0px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.blockProjet1 {
+  border-radius: 10px 10px 0px 0px;
+  height: 20em;
+  background-image: linear-gradient(to right, transparent, #000), url("../src/actigo.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.blockProjet2 {
+  height: 20em;
+  background-image: linear-gradient(to right, transparent, #000), url("../src/edt.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.blockProjet3 {
+  height: 20em;
+  background-image: linear-gradient(to right, transparent, #000), url("../src/geo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.blockProjet4 {
+  height: 20em;
+  background-image: linear-gradient(to right, transparent, #000), url("../src/SnakeGJ.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.blockProjet5 {
+  height: 20em;
+  border-radius: 0px 0px 10px 10px;
+  background-image: linear-gradient(to right, transparent, #000), url("../src/provenciens.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/************************************************************************/
+
+
+
+/*******************************SECTIONS********************************/
+
+.section1 h2 {
+  font-family: Big-noddle;
+  text-align: center;
+  margin: 3%;
+}
+
+.section1 h3, .section1 h4, .section1 p {
+  color: #000;
+  font-family: Big-noddle;
+  text-align: center;
+}
+
+.formation, .expPro, .logol1, .logol2, .logol3, .logol4, .loisirl1 {
+  margin: 5%;
+}
+
+.section {
+  border-radius: 10px 10px 10px 10px;
+}
+
+.block .section1 {
+  border-radius: 10px 10px 0px 0px;
+  background:linear-gradient(to left, transparent, #fff), url("../src/work.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section2 {
+  background:linear-gradient(to right, transparent, #000), url("../src/paris.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.section2 h2, .section2 h3, .section2 h4, .section2 p {
+  font-family: Big-noddle;
+  text-align: center;
+  color: #fff;
+}
+
+.section2 h2 {
+  margin-top: 3%;
+}
+
+.section3 {
+  margin-top: 5%;
+}
+
+.section3 h2, .section3 h3 {
+  font-family: Big-noddle;
+  text-align: center;
+}
+
+.section4 h2 {
+  font-family: Big-noddle;
+  text-align: center;
+}
+
+.section4 h3, .section4 p {
+  font-family: Big-noddle;
+  color: #fff;
+  text-align: center;
+  margin: 3%;
+}
+
+.section5 h2 {
+  font-family: Big-noddle;
+  text-align: center;
+}
+
+.section5 h3 {
+  font-family: Big-noddle;
+  text-align: center;
+  color: #fff;
+  font-size: 30px!important;
+}
+
+.section5 p {
+  font-family: Big-noddle;
+  text-align: center;
+  color: #fff;
+}
+
+.section5 a {
+  display: block;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Big-noddle;
+  text-align: center;
+  color: #fff;
+}
+
+.section6 h2 {
+  font-family: Big-noddle;
+  text-align: center;
+  color: #fff;
+  margin: 3%;
+}
+
+.section6 {
+  z-index: 6;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 60px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  background:linear-gradient(to left, transparent, #000), url("../src/background.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section7 {
+  border-radius: 10px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  height: 30em;
+  z-index: 5;
+  margin: -30px 30px 0px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.section7 h2 {
+  font-family: Big-noddle;
+  text-align: center;
+  color: #000;
+}
+
+.btnCV {
+  border-radius: 10px!important;
+  width: 10%;
+  position: absolute;
+  font-family: Big-noddle;
+  margin: 1%;
+  right: 0;
+  min-width: 120px;
+}
+
+.btnSubmit {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 10px!important;
+  margin-top: 5%;
+}
+
+/****************************************************************************/
+
+
+/*************************************FORMULAIRE*****************************/
+
+.section7 form {
+  margin: 10%;
+}
+
+.form-control {
+  border-radius: 10px!important;
+}
+
+.btn-outline-light {
+  border-radius: 10px!important;
+}
+
+/******************************************************************************/
+
+
+/*********************************ANIMATIONS*********************************/
+
+@keyframes scroll {
+  0% {transform: translateY(100px);}
+  100% {transform: translateY(0px);}
+}
+
+@keyframes apparition {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+/****************************************************************************/
+
+
+/*******************************SCROLL***************************************/
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/****************************************************************************/
