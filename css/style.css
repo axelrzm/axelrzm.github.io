@@ -59,10 +59,42 @@ html {
   height: inherit;
 }
 
+.logoHb {
+  background-image: url("../src/hb.jpg");
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoDescartes {
+  background-image: url("../src/paris-descartes.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoEsiea {
+  background-image: url("../src/esiea.jpg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoSap {
+  background-image: url("../src/sap.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  height: 10em;
+}
+
 .logoJava {
   background-image: url("../src/logoJAVA.png");
   background-repeat: no-repeat;
-  background-size: 17%;
+  background-size: 25%;
   background-position: center;
   height: 10em;
 }
@@ -76,7 +108,7 @@ html {
 }
 
 .logoHC {
-  background-image: url("../src/logoCSSHTML.png");
+  background-image: url("../src/logo-kotlin.png");
   background-repeat: no-repeat;
   background-size: 33%;
   background-position: center;
@@ -84,7 +116,7 @@ html {
 }
 
 .logoMysql {
-  background-image: url("../src/logoMysql.png");
+  background-image: url("../src/logo-swift.png");
   background-repeat: no-repeat;
   background-size: 30%;
   background-position: center;
@@ -107,10 +139,10 @@ html {
   height: 10em;
 }
 
-.logoBoot {
-  background-image: url("../src/bootstrap.png");
+.logoMaven {
+  background-image: url("../src/logo-maven.png");
   background-repeat: no-repeat;
-  background-size: 12%;
+  background-size: 35%;
   background-position: center;
   height: 10em;
 }
@@ -118,7 +150,15 @@ html {
 .logoJQ {
   background-image: url("../src/jquery.png");
   background-repeat: no-repeat;
-  background-size: 25%;
+  background-size: 30%;
+  background-position: center;
+  height: 10em;
+}
+
+.logoSB {
+  background-image: url("../src/spring-boot.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
   background-position: center;
   height: 10em;
 }
@@ -132,17 +172,17 @@ html {
 }
 
 .logoTrello {
-  background-image: url("../src/trello.png");
+  background-image: url("../src/karma-logo.svg");
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 35%;
   background-position: center;
   height: 10em;
 }
 
 .logoJira {
-  background-image: url("../src/jira.png");
+  background-image: url("../src/node-js.png");
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 13%;
   background-position: center;
   height: 10em;
 }
@@ -246,18 +286,19 @@ html {
 }
 
 .blockProjet {
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   position:relative;
   z-index: 5;
   margin: 60px 30px 0px;
   border-radius: 10px;
-  background: #fff;
 }
 
 .blockProjet1 {
-  border-radius: 10px 10px 0px 0px;
-  height: 20em;
-  background-image: linear-gradient(to right, transparent, #000), url("../src/actigo.jpg");
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 25em;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -265,17 +306,12 @@ html {
 }
 
 .blockProjet2 {
-  height: 20em;
-  background-image: linear-gradient(to right, transparent, #000), url("../src/edt.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.blockProjet3 {
-  height: 20em;
-  background-image: linear-gradient(to right, transparent, #000), url("../src/geo.jpg");
+  border-radius: 10px 10px 10px 10px;
+  height: 25em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -283,8 +319,12 @@ html {
 }
 
 .blockProjet4 {
-  height: 20em;
-  background-image: linear-gradient(to right, transparent, #000), url("../src/SnakeGJ.jpg");
+  border-radius: 10px 10px 10px 10px;
+  height: 25em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -292,9 +332,12 @@ html {
 }
 
 .blockProjet5 {
-  height: 20em;
-  border-radius: 0px 0px 10px 10px;
-  background-image: linear-gradient(to right, transparent, #000), url("../src/provenciens.jpg");
+  height: 25em;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -323,8 +366,12 @@ html {
   text-align: center;
 }
 
-.formation, .expPro, .logol1, .logol2, .logol3, .logol4, .loisirl1 {
+.formation, .logol1, .logol2, .logol3, .logol4, .loisirl1 {
   margin: 5%;
+}
+
+.expPro {
+  margin: 10%;
 }
 
 .section {
@@ -333,7 +380,7 @@ html {
 
 .block .section1 {
   border-radius: 10px 10px 0px 0px;
-  background:linear-gradient(to left, transparent, #fff), url("../src/work.jpg");
+  background:linear-gradient(125deg, transparent, #fff 50%), url("../src/work.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -341,7 +388,7 @@ html {
 }
 
 .section2 {
-  background:linear-gradient(to right, transparent, #000), url("../src/paris.jpg");
+  background:linear-gradient(125deg, transparent, #000 50%), url("../src/paris.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -444,7 +491,6 @@ html {
   border-radius: 10px;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   position: relative;
-  height: 30em;
   z-index: 5;
   margin: -30px 30px 0px;
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
@@ -452,8 +498,23 @@ html {
 
 .section7 h2 {
   font-family: Big-noddle;
-  text-align: center;
   color: #000;
+}
+
+.info-contact {
+  margin-top: 32%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.tags {
+  text-align: center;
+  margin: 2%;
+}
+
+.tags div[name=button] {
+  font-family: Big-noddle;
 }
 
 .btnCV {
@@ -471,7 +532,7 @@ html {
   margin-left: 30%;
   margin-right: 30%;
   border-radius: 10px!important;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 /****************************************************************************/
