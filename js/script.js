@@ -10,7 +10,7 @@ $( '#sendMailForm' ).submit(function ( e ) {
     };
     // POST data to the php file
     $.ajax({ 
-        url: 'mail.php', 
+        url: 'php/sendMail.php', 
         data: data,
         type: 'POST',
         success: function (data) {
